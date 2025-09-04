@@ -1,0 +1,36 @@
+{
+  "name": "mcmarket",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "@tanstack/react-router": "^1.131.35",
+    "@tanstack/react-start": "^1.131.35",
+    "better-auth": "^1.3.8",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.4"
+  }
+}
