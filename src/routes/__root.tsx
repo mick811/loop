@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@/components/theme-provider'
 import type { ReactNode } from 'react'
 import {
   Outlet,
@@ -43,7 +44,9 @@ function RootDocument({
         <HeadContent />
       </head>
       <body>
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
         <Scripts />
       </body>
     </html>
