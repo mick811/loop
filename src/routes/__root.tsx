@@ -43,7 +43,7 @@ function RootDocument({
       <head>
         <HeadContent />
       </head>
-      <body className='font-inter'>
+      <body>
         <ThemeProvider>
           {children}
         </ThemeProvider>
